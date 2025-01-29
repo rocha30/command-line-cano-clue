@@ -15,6 +15,9 @@
 
 Encontre unos lether gloves en la cocina de la cafeteria de la escuela. 
 Encontre fountain pen en la clase 
+Encontre un antique compass en el lab 
+En una botella de agua en art room 
+Hay un trofeo de bronce en la casa
 Hay un trofeo de bronce en la casa/ 
 Hay unos magnifying glases en market/
 En el market se encontraba el relojero/
