@@ -18,7 +18,11 @@ Encontre fountain pen en la clase
 Encontre un antique compass en el lab 
 En una botella de agua en art room 
 Hay un trofeo de bronce en la casa
-Hay un trofeo de bronce en la casa/ 
+Hay un iron poker en la mansion 
+En la mansion hay una clue donde me dice que me mueva a baker en shops 
+En bakery encontre una pisat donde me dice que me vaya a aisles 
+En bakery encontre a el repostero y el shopkeeper 
+ 
 Hay unos magnifying glases en market/
 En el market se encontraba el relojero/
 En aisles estaba The Joker/ 
