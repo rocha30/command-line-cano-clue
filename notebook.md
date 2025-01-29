@@ -3,12 +3,12 @@
 ## Suspects
 - [x] The Jocker
 - [ ] The Engineer
-- [ ] The Shopkeeper
+- [x] The Shopkeeper
 
 ## Weapons
 - [x] Walking Stick
 - [ ] Brass Bell
-- [ ] Iron Poker
+- [x] Iron Poker
 
 ## Notes
 *Use this space to record your findings and deductions...*
@@ -37,4 +37,5 @@ witness accounts - no one was around when the crime occurred. This must be
 where the murderer carried out their plan!
 En el council chamber se encotraron un baston para caminar y una caja de madera 
 
+Se puede concluir que el Asesino es The Engineer con la campana de laton en el council chamber ya que es la unica persona que no hemos encontrado (esta escondido) y la brass bell esta con el. 
 
