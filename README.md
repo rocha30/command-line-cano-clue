@@ -1,21 +1,76 @@
-Hay un trofeo de bronce en la casa/ 
-Hay unos magnifying glases en market/
-En el market se encontraba el relojero/
-En aisles estaba The Joker/ 
-En el Town Hall hay una regla de acero/ 
-En el council chamber se encotraron un baston para caminar y una caja de madera 
+# Mystery in the Small Town: A Command Line Investigation Game
 
-Investigation Conclusion:
+Welcome, Detective! A crime has occurred in our small town, and we need your command line investigation skills to solve it. You'll explore different locations, gather clues, and use your powers of deduction to find the culprit.
 
-The undisturbed dust patterns confirm it - you've found the crime scene! The emptiness of the room speaks volumes.
+## The Crime
 
-Your careful detective work has paid off. The empty state of this room matches
-witness accounts - no one was around when the crime occurred. This must be
-where the murderer carried out their plan!
+A crime has been committed in our quiet town. The police have narrowed down the list of suspects and potential weapons, but they need your help to identify the perpetrator and the murder weapon. The crime must have taken place in an empty room, as no one in town witnessed the act.
 
-Make sure to document this discovery in your notebook.md file along with your
+## How to Investigate
 
-En los records del town hall estaba el postman  
+### Using the Detective's Notebook
 
-Conclusion: 
-El ascecino es The Joker con el baston para caminar. 
+When you start the game, you'll find a `notebook.md` file in your game directory. This notebook contains:
+- A list of possible suspects
+- A list of potential weapons
+
+As you investigate, you'll cross out suspects and weapons that you find in various locations. The logic is simple: if you find a person or object in a room, they couldn't have been involved in the crime at that time! For example, if you find "The Librarian" in the library, you can cross them off your suspect list.
+
+In your notebook, cross out each eliminated suspect and weapon by changing:
+```markdown
+- [ ] The Librarian
+```
+to:
+```markdown
+- [x] The Librarian
+```
+
+The last uncrossed suspect and weapon will be your solution!
+
+### Navigating the Town
+
+To move around town and gather evidence, you'll use these simple commands:
+
+1. List what's in your current location:
+```bash
+ls
+```
+
+2. Move to a new location:
+```bash
+cd library
+```
+
+3. Read the contents of a file:
+```bash
+cat persons.txt
+cat objects.txt
+```
+
+For example, let's say you're investigating the library:
+```bash
+cd library
+ls              # Shows: objects.txt  persons.txt
+cat persons.txt # Might show: "The Teacher"
+```
+If you find The Teacher here, you can cross them off your suspect list!
+
+### Following the Investigation Trail
+
+To make your investigation easier, we've set up a trail of clues! In many locations, you'll find a `clue.txt` file pointing you toward your next destination. Read these clues using:
+```bash
+cat clue.txt
+```
+
+The clues will help you navigate through town. Sometimes you'll need to:
+- Go into a building or room: `cd mansion`
+- Go back up one level: `cd ..`
+- Go back multiple levels: `cd ../..`
+- Move to a parallel room: `cd ../kitchen`
+
+For example, if a clue says "You notice movement in the garden", you might need to:
+```bash
+cd garden      # Enter the garden
+ls             # Check what's here
+cat clue.txt   # Read the next clue
+```
